@@ -2,7 +2,7 @@
 <head><title>CONSOLE WEB APP </title></head>
 <body>
 <h1>Console</h1>
-<h2>Time in School</h2>
+<h1>Time in School</h1>
 <br><br>
 <p>Maximum no of students in each class?
     <h4
@@ -14,35 +14,37 @@
     id= "access_second_element"></h4>
 </p>
 <hr>
+
 <p>Total time students quiet in class?
     <h4
     id= "access_third_element"></h4>
 </p>
+
 </body>
+
 <script>
-var first_answere= [30-38];
-console.log(answere);
+
+var answere=["39","7:30Hours","7mins"];
+    console.log(answere);
     document.getElementById("declaration_of_answere").innerHTML=answere;
 
-var second_answere= ["7hours","30","mins"];
-console.log(answere);
-    document.getElementById("declaration_of_answere").innerHTML=answere;
+    var first_ans=ans[0];
+    console.log(first_ans);
+    document.getElementById("access_first_element").innerHTML=first_ans;
 
-    var third_answere= ["maximum","7","minute"];
-console.log(answere);
-    document.getElementById("declaration_of_answere").innerHTML=answere;
+    var second_ans=ans[1];
+    console.log(second_ans);
+    document.getElementById("access_second_element").innerHTML=second_ans;
 
-    
-    var first_answere=answere[0];
-    console.log(first_answere);
-    document.getElementById("access_first_element").innerHTML=first_answere;
+    var third_ans=ans[2];
+    console.log(third_ans);
+    document.getElementById("access_third_element").innerHTML=third_ans;
 
-    var second_answere=answere[1];
-    console.log(second_answere);
-    document.getElementById("access_second_element").innerHTML=second_answere;
-
-    var third_answere=answere[2];
-    console.log(third_answere);
-    document.getElementById("access_third_element").innerHTML=third_answere;
+    var length_of_the_answere=answere.length;
+    console.log(length_of_the_array);
+    document.getElementById("display_length_of_answere").innerHTML=length_of_the_answere;
 
 </script>
+
+
+</html>
